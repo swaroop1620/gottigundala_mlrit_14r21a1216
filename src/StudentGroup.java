@@ -21,16 +21,30 @@ public class StudentGroup implements StudentArrayOperation {
 	 */
 	public StudentGroup(int length) {
 		this.students = new Student[length];
+		try{
+			
+		if(students==null){
+			throw{
+				   System.out.println("illegalargumentexceptiom",e)
+			}
+		}
+		}
 	}
-
-	@Override
-	public Student[] getStudents() {
 		// Add your implementation here
 		return null;
 	}
 
 	@Override
 	public void setStudents(Student[] students) {
+		try{
+		int index=0;
+		if(Student[index]==0||>students)
+		{
+			throw{
+				System.out.println("illegalAirthematicException",e);
+			}
+		}
+		}
 		// Add your implementation here
 	}
 
