@@ -24,9 +24,9 @@ public class StudentGroup implements StudentArrayOperation {
 		try{
 			
 		if(students==null){
-			throw{
-				   System.out.println("illegalargumentexceptiom",e)
-			}
+			throw new=IllegalArgumentException;
+				   
+			
 		}
 		}
 	}
@@ -40,27 +40,30 @@ public class StudentGroup implements StudentArrayOperation {
 		int index=0;
 		if(Student[index]==0||>students)
 		{
-			throw{
-				System.out.println("illegalAirthematicException",e);
+			
+			throw new=IllegalArgumentException;
 			}
 		}
 		}
 		// Add your implementation here
-	}
+	
 
 	@Override
 	public Student getStudent(int index) {
+		char[] students=Students.toCharArray();
 		// Add your implementation here
 		return null;
 	}
 
 	@Override
 	public void setStudent(Student student, int index) {
+		student[index]=Student[]
 		// Add your implementation here
 	}
 
 	@Override
 	public void addFirst(Student student) {
+		
 		// Add your implementation here
 	}
 
